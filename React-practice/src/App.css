@@ -1,0 +1,13 @@
+.cont-items{
+  width:175px;
+  height: 125px;
+  border: 2px solid black;
+}
+
+.cont{
+  width: 535px;
+  height: 400px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
