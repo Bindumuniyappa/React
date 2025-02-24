@@ -1,9 +1,12 @@
+import { Outlet } from 'react-router-dom'
 import CharecterLimiterTask from './CharecterLimiterTask'
 import CountDownTask from './CountDownTask'
 import FireFlinkTask from './FireFlinkTask'
 import ImageLoader from './ImageLoader'
+import ParentComp from './ParentComp'
 import RandomColorGenTask from './RandomColorGenTask'
 import RandomEmojiGen from './RandomEmojiGen'
+import Nav from './Routing/Nav'
 import ScrollProgress from './ScrollProgress'
 import SimpleTimerTask from './SimpleTimerTask'
 import TicTacToeTask from './TicTacToeTask'
@@ -26,7 +29,10 @@ function App() {
     {/* <ImageLoader/> */}
     {/* <WeatherTask/> */}
     {/* <TicTacToeTask/> */}
-    <ScrollProgress/>
+    {/* <ScrollProgress/> */}
+    {/* <ParentComp/> */}
+    <Nav/>
+    <Outlet/>
     </>
   )
 }
