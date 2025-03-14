@@ -21,8 +21,7 @@ const ToDoListTask = () => {
             list.map((ele,ind)=>{
                 return(
                     <li key={ind}>{ele}
-                    <button onClick={()=>setList(list.filter((t)=>t!==ele))}>Delete</button></li>
-                    
+                    <button onClick={()=>setList(list.filter((t)=>t!==ele))}>Delete</button></li>   
                 )
             })
         }

@@ -13,26 +13,32 @@ import TicTacToeTask from './TicTacToeTask'
 import ToDoListTask from './ToDoListTask'
 import ToggleTask from './ToggleTask'
 import WeatherTask from './WeatherTask'
+import LoginPage from './Components/LoginPage'
+import SignupPage from './Components/SignupPage'
+import StopWatch from './Components/StopWatch'
 
 function App() {
-  
+
   return (
     <>
-    {/* <FireFlinkTask/> */}
-    {/* <ToggleTask/> */}
-    {/* <ToDoListTask/> */}
-    {/* <SimpleTimerTask/> */}
-    {/* <RandomColorGenTask/> */}
-    {/* <CountDownTask/> */}
-    {/* <CharecterLimiterTask/> */}
-    {/* <RandomEmojiGen/> */}
-    {/* <ImageLoader/> */}
-    {/* <WeatherTask/> */}
-    {/* <TicTacToeTask/> */}
-    {/* <ScrollProgress/> */}
-    {/* <ParentComp/> */}
-    <Nav/>
-    <Outlet/>
+    <StopWatch/>
+    {/* <SignupPage/> */}
+    {/* <LoginPage/> */}
+      {/* <FireFlinkTask/> */}
+      {/* <ToggleTask/> */}
+      {/* <ToDoListTask/> */}
+      {/* <SimpleTimerTask/> */}
+      {/* <RandomColorGenTask/> */}
+      {/* <CountDownTask/> */}
+      {/* <CharecterLimiterTask/> */}
+      {/* <RandomEmojiGen/> */}
+      {/* <ImageLoader/> */}
+      {/* <WeatherTask /> */}
+      {/* <TicTacToeTask/> */}
+      {/* <ScrollProgress/> */}
+      {/* <ParentComp/> */}
+      {/* <Nav/> */}
+      {/* <Outlet/> */}
     </>
   )
 }
